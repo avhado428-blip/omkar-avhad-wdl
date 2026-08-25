@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory Test Prices</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table.css">
+    <style>
+        nav { font-size: 0.98rem; }
+        nav a { text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+    </style>
+</head>
+
+<body>
+
+    <header style="background-color: #0b5c8e; color: #ffffff; padding: 28px 20px; border: 2px solid #083b5c;">
+        <h1 style="color: #ffffff; text-align: center; margin: 0;">Laboratory Test Price Table</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="laboratory-tests.html">Laboratory Tests</a> |
+        <a href="test-details.html">Test Details</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="patient-registration.html">Registration</a>
+    </nav>
+
+    <main>
+
+        <table>
+
+            <caption>
+                Laboratory Tests and Charges
+            </caption>
+
+            <thead>
+                <tr>
+                    <th>Test Code</th>
+                    <th>Test Name</th>
+                    <th>Department</th>
+                    <th>Cost (₹)</th>
+                    <th>Sample Type</th>
+                    <th>Report Time</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>LAB001</td>
+                    <td>CBC</td>
+                    <td rowspan="2">Hematology</td>
+                    <td>400</td>
+                    <td>Blood</td>
+                    <td>24 Hours</td>
+                </tr>
+
+                <tr>
+                    <td>LAB002</td>
+                    <td>HbA1c</td>
+                    <td>500</td>
+                    <td>Blood</td>
+                    <td>24 Hours</td>
+                </tr>
+
+                <tr>
+                    <td>LAB003</td>
+                    <td>Urine Routine</td>
+                    <td>Clinical Pathology</td>
+                    <td>250</td>
+                    <td>Urine</td>
+                    <td>12 Hours</td>
+                </tr>
+
+                <tr>
+                    <td>LAB004</td>
+                    <td>LFT</td>
+                    <td>Biochemistry</td>
+                    <td>800</td>
+                    <td>Blood</td>
+                    <td>24 Hours</td>
+                </tr>
+
+                <tr>
+                    <td>LAB005</td>
+                    <td>KFT</td>
+                    <td>Biochemistry</td>
+                    <td>700</td>
+                    <td>Blood</td>
+                    <td>24 Hours</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="6">
+                        All prices are indicative and may vary.
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Clinical Laboratory Management System</p>
+    </footer>
+
+</body>
+</html>

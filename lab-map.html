@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Urine Test Strip</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav { font-size: 0.98rem; }
+        nav a { text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+    </style>
+</head>
+
+<body>
+
+    <header style="background-color: #0b5c8e; color: #ffffff; padding: 28px 20px; border: 2px solid #083b5c;">
+        <h1 style="color: #ffffff; text-align: center; margin: 0;">Interactive Urine Test Strip</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="laboratory-tests.html">Laboratory Tests</a> |
+        <a href="lab-map.html">Test Strip</a> |
+        <a href="patient-registration.html">Registration</a>
+    </nav>
+
+    <main>
+        <section class="map-wrapper">
+            <h2>Click on a Test Strip Parameter</h2>
+
+            <img src="images/test-strip.jpg"
+                 alt="Urine Test Strip"
+                 width="600"
+                 height="200"
+                 usemap="#teststripmap">
+
+        <map name="teststripmap">
+
+            <area shape="rect"
+                  coords="20,50,120,150"
+                  href="test-details.html"
+                  alt="Glucose Pad"
+                  title="Glucose Pad">
+
+            <area shape="rect"
+                  coords="130,50,230,150"
+                  href="test-details.html"
+                  alt="Protein Pad"
+                  title="Protein Pad">
+
+            <area shape="rect"
+                  coords="240,50,340,150"
+                  href="test-details.html"
+                  alt="Blood Pad"
+                  title="Blood Pad">
+
+            <area shape="rect"
+                  coords="350,50,450,150"
+                  href="test-details.html"
+                  alt="Ketone Pad"
+                  title="Ketone Pad">
+
+            <area shape="rect"
+                  coords="460,50,560,150"
+                  href="test-details.html"
+                  alt="pH Pad"
+                  title="pH Pad">
+
+            </map>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Clinical Laboratory Management System</p>
+    </footer>
+
+</body>
+</html>

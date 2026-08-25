@@ -1,0 +1,48 @@
+/* Task 7: Price table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border: 1px solid #bfd5e0;
+    box-shadow: 0 8px 22px rgba(17, 66, 91, 0.10);
+}
+
+table caption {
+    padding: 14px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0b5c8e;
+}
+
+th,
+td {
+    padding: 13px 12px;
+    border: 1px solid #c8dbe7;
+    text-align: center;
+}
+
+th {
+    background: #0b5c8e;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background: #edf7fa;
+}
+
+tbody tr:hover {
+    background: #dff3f3;
+}
+
+tfoot td {
+    font-style: italic;
+    background: #f3f7f9;
+}
+
+@media (max-width: 700px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}

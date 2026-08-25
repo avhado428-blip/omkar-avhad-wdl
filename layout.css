@@ -1,0 +1,26 @@
+/* Task 9: Page layout using header, sidebar, content and footer */
+.layout-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.layout-container .sidebar {
+    flex: 0 0 250px;
+}
+
+.layout-container .layout-content {
+    flex: 1;
+    min-width: 0;
+}
+
+@media (max-width: 760px) {
+    .layout-container {
+        flex-direction: column;
+    }
+
+    .layout-container .sidebar {
+        width: 100%;
+        flex-basis: auto;
+    }
+}
