@@ -1,0 +1,17 @@
+nav {
+  background: #282c34;
+  padding: 12px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+div {
+  text-align: center;
+  margin-top: 20px;
+}
